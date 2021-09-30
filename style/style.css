@@ -6,12 +6,15 @@
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
+body {
+  width: 100vw;
+}
 header {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.1);
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   padding: 15px 100px;
   display: flex;
   justify-content: space-between;
@@ -512,13 +515,13 @@ footer p {
     font-size: 25px;
   }
   .main .content h2 span {
-    font-size: 56px;
+    font-size: 32px;
   }
   .main .content .animeted-text {
     height: 40px;
   }
   .main .content .animeted-text h3 {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   .btn {
@@ -542,7 +545,30 @@ footer p {
     margin-top: 40px;
   }
   .contact .contact-form {
+    width: 80%;
+    margin: 0 auto;
     padding: 34px 40px;
+  }
+  /* ermak */
+  #contact .content {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #contact .row {
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #contact .card {
+    width: 80%;
   }
 }
 
