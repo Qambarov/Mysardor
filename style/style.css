@@ -549,6 +549,9 @@ footer p {
     padding: 34px 40px;
   }
   /* ermak */
+  #contact {
+    padding: 80px 0;
+  }
   #contact .content {
     text-align: center;
     width: 80%;
@@ -559,8 +562,8 @@ footer p {
     flex-wrap: wrap;
   }
   #contact .row {
-    width: 320px;
-    margin: 0 auto;
+    position: relative;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
