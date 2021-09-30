@@ -451,6 +451,7 @@ footer p {
 /* Responseve */
 @media (max-width: 1040px) {
   header {
+    width: 100%;
     padding: 12px 20px;
   }
   header .navigation.active {
